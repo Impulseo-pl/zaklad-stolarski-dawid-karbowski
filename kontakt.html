@@ -2,6 +2,7 @@
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
+<meta name="theme-color" content="#ede9e2">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kontakt - Zakład Stolarski Dawid Karbowski</title>
 <meta name="description" content="Kontakt Zakład Stolarski Dawid Karbowski - Kuźnica Skakawska, gm. Wieruszów">
@@ -19,55 +20,72 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=f12e553e">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..600,0..100&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=20261104">
 </head>
 <body>
 
 <header class="nav">
   <div class="wrap nav-inner">
-    <a class="brand" href="index.html"><span class="name">Dawid Karbowski</span><span class="sub">Meble na wymiar</span></a>
-    <nav class="nav-links">
-      <a href="index.html">Strona główna</a>
-      <a href="realizacje.html">Realizacje</a>
-      <a href="oferta.html">Oferta</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="kontakt.html" class="active" aria-current="page">Kontakt</a>
-      <a href="kontakt.html" class="btn btn-accent">Zapytaj o wycenę</a>
+    <a class="brand" href="index.html" aria-label="Zakład Stolarski Dawid Karbowski - strona główna"><span class="name">Dawid Karbowski</span><span class="sub">Zakład stolarski</span></a>
+    <button class="nav-toggle" aria-label="Menu" aria-controls="menu"><span></span><span></span></button>
+    <a class="nav-phone" href="tel:+48665069443">+48 665 069 443 <span class="arr" aria-hidden="true">→</span></a>
+    <nav class="nav-links" id="menu" aria-label="Menu główne">
+      <div class="menu-cols">
+        <div class="menu-main">
+          <a href="index.html">Strona główna</a>
+          <a href="realizacje.html">Realizacje</a>
+          <a href="oferta.html">Oferta</a>
+          <a href="o-nas.html">O&nbsp;nas</a>
+          <a href="kontakt.html" aria-current="page">Kontakt</a>
+        </div>
+        <div class="menu-col">
+          <h4>Oferta</h4>
+          <a href="oferta.html">Kuchnie na wymiar</a>
+          <a href="oferta.html">Szafy i&nbsp;garderoby</a>
+          <a href="oferta.html">Zabudowy wnęk i&nbsp;skosów</a>
+          <a href="oferta.html">Meble pokojowe i&nbsp;łazienkowe</a>
+          <a href="oferta.html">Schody i&nbsp;blaty z&nbsp;drewna</a>
+        </div>
+        <div class="menu-col">
+          <h4>Kontakt</h4>
+          <a href="tel:+48665069443">+48 665 069 443</a>
+          <p>Kuźnica Skakawska, gm. Wieruszów</p>
+          <p>Klienci prywatni i&nbsp;firmy</p>
+        </div>
+      </div>
     </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </header>
 
 <main>
-<section class="pagehead">
-  <img src="img/g8.jpg" alt="Zakład Stolarski Dawid Karbowski - Zapytaj o wycenę" width="1534" height="988" decoding="async">
+<section class="pagehead hero-kw sub">
+  <div class="kw-art"><img src="img/g8.jpg" alt="Zakład Stolarski Dawid Karbowski - kuchnia na wymiar" fetchpriority="high" width="1534" height="988" decoding="async"><i class="stripe s1"></i><i class="stripe s2"></i><i class="stripe s3"></i></div>
   <div class="wrap">
-    <span class="eyebrow">Kontakt</span>
-    <h1>Zapytaj o wycenę</h1>
-    <p>Odpowiemy na pytania i przygotujemy wycenę.</p>
+    <div class="hero-kw-copy">
+      <span class="eyebrow">Kontakt</span>
+      <h1>Zapytaj o&nbsp;wycenę</h1>
+      <p class="lead">Zadzwoń i&nbsp;opisz, co chcesz zrobić. Odpowiemy na pytania i&nbsp;przygotujemy wycenę.</p>
+    </div>
   </div>
 </section>
-<section>
-  <div class="wrap contact-grid">
+
+<section class="beige sec" style="padding-top:clamp(30px,4vw,60px)">
+  <div class="wrap contact">
     <div class="reveal">
       <span class="eyebrow">Dane kontaktowe</span>
-      <h2 style="margin:var(--space-4) 0 var(--space-6)">Zakład Stolarski Dawid Karbowski</h2>
-      <div class="info-list">
-        <div class="info-row"><div class="ic"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg></div><div><div class="lbl">Telefon</div><a class="val" href="tel:+48665069443">+48 665 069 443</a></div></div>
-        <div class="info-row"><div class="ic"><svg class="ico-pin" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-6.1 7-11.5A7 7 0 0 0 5 9.5C5 14.9 12 21 12 21Z" stroke="currentColor" stroke-width="1.6" fill="none"/><circle cx="12" cy="9.5" r="2.4" fill="currentColor"/></svg></div><div><div class="lbl">Adres</div><div class="val">Kuźnica Skakawska, gm. Wieruszów</div></div></div>
-      </div>
+      <h2 style="font-size:clamp(1.9rem,3.2vw,2.8rem);margin-top:14px">Zakład Stolarski Dawid Karbowski</h2>
+      <div class="lbl">Telefon</div><a class="val" href="tel:+48665069443">+48 665 069 443</a>
+      <div class="lbl">Adres</div><div class="val">Kuźnica Skakawska, gm. Wieruszów</div>
     </div>
-    <div class="reveal">
-      <div class="form">
-        <h3 style="margin-bottom:var(--space-4)">Najszybciej telefonicznie</h3>
-        <p class="muted" style="margin-bottom:var(--space-5)">Zadzwoń, opisz pomysł, a my powiemy, co i jak. Bez zobowiązań.</p>
-        <a href="tel:+48665069443" class="btn btn-accent" style="justify-content:center">Zadzwoń: +48 665 069 443 <span class="arr">→</span></a>
-      </div>
+    <div class="box reveal">
+      <h3>Najszybciej telefonicznie</h3>
+      <p>Zadzwoń, opisz pomysł, a&nbsp;my powiemy, co i&nbsp;jak. Bez zobowiązań.</p>
+      <a href="tel:+48665069443" class="btn">Zadzwoń: +48 665 069 443 <span class="arr" aria-hidden="true">→</span></a>
     </div>
   </div>
 </section>
-<section style="padding-top:0">
+<section class="beige" style="padding-bottom:clamp(60px,8vw,120px)">
   <div class="wrap reveal">
     <iframe class="map" title="Zakład Stolarski Dawid Karbowski - Wieruszów" src="https://maps.google.com/maps?q=Zak%C5%82ad%20Stolarski%20Dawid%20Karbowski%20Wierusz%C3%B3w&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
@@ -76,34 +94,40 @@
 
 <footer>
   <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">Zakład Stolarski Dawid Karbowski</div>
-        <p>Najpierw pomiar i projekt, decyzja potem. Mebel powstaje pod Twoje wnętrze - ze skosem i krzywą ścianą włącznie.</p>
-      </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
-        <a href="index.html">Strona główna</a>
-        <a href="realizacje.html">Realizacje</a>
-        <a href="oferta.html">Oferta</a>
-        <a href="o-nas.html">O nas</a>
-        <a href="kontakt.html">Kontakt</a>
-      </div>
-      <div class="foot-col">
+    <div class="f-top">
+      <div class="f-col">
         <h4>Kontakt</h4>
         <a href="tel:+48665069443">+48 665 069 443</a>
         <p>Kuźnica Skakawska, gm. Wieruszów</p>
       </div>
+      <div class="f-col">
+        <h4>Strona</h4>
+        <a href="realizacje.html">Realizacje</a>
+        <a href="oferta.html">Oferta</a>
+        <a href="o-nas.html">O&nbsp;nas</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+      <div class="f-col">
+        <h4>Oferta</h4>
+        <a href="oferta.html">Kuchnie na wymiar</a>
+        <a href="oferta.html">Szafy i&nbsp;zabudowy</a>
+        <a href="oferta.html">Schody i&nbsp;blaty z&nbsp;drewna</a>
+      </div>
     </div>
-    <div class="foot-bot">
+    <div class="f-mid">
+      <a class="brand" href="index.html"><span class="name">Dawid Karbowski</span><span class="sub">Zakład stolarski</span></a>
+      <a class="lnk" href="kontakt.html">Zapytaj o&nbsp;wycenę <span class="arr" aria-hidden="true">→</span></a>
+    </div>
+    <div class="f-bot">
       <span>© 2026 Zakład Stolarski Dawid Karbowski</span>
       <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
     </div>
   </div>
 </footer>
-<div class="sticky-reserve"><a class="sr-book" href="kontakt.html">Zapytaj o wycenę</a><a class="sr-call" href="tel:+48665069443" aria-label="Zadzwoń"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg></a></div>
+<div class="sticky-reserve"><a class="sr-book" href="kontakt.html">Zapytaj o&nbsp;wycenę</a><a class="sr-call" href="tel:+48665069443" aria-label="Zadzwoń"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg></a></div>
 <div class="demo-wazne" data-do="2026-11-10" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
-<script src="assets/main.js"></script>
+<script src="assets/main.js?v=20261104"></script>
+<script src="assets/kw.js?v=20261104"></script>
 </body>
 </html>
